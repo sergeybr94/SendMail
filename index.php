@@ -15,7 +15,7 @@ $mail->SMTPAuth = true; // нужна авторизация
 $mail->Username = 'login@mail.ru'; // логин
 $mail->Password = 'you_password'; // пароль
 
-// Configuring mail
+// Настройка письма
 $mail->setFrom('from@mail.ru', 'Sergei'); // От кого отправляем
 $mail->addAddress('email_to@gmail.com', 'Sergei'); // Кому отправляем
 $mail->Subject = 'Testing PHPMailer'; // Тема письма
